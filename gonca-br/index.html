@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+
+<!-- favicon -->
+<link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+
+<!-- link css bootstrap v5.3.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<!-- link icon bootstrap v1.11 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+<!-- link css customizado -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <!-- cabeçalho e menu-->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-danger-subtle" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand mx-5" href="#">G-BR</a>
+
+              <!-- menu sanduiche - para telas menores -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto mb-2  mb-lg-0">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#portfolio">Serviços</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#contato">Contato</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <!-- primeira section - HEROES-->
+    <section class="meubg d-flex flex-column align-items-center justify-content-center">
+      <!-- Propriedades Bootstrap:
+             - d-flex: Aplica display flex ao elemento, facilitando o alinhamento e justificação do conteúdo
+             - flex-column: Alinha os itens flex em uma coluna
+             - align-items-center: Alinha os itens ao centro do contêiner no eixo transversal
+             - justify-content-center: Justifica os itens ao centro do contêiner no eixo principal -->
+      <div class="container-fluid d-flex flex-column">
+
+    <!--Apresentação -->
+      <div class="row text-center">
+          <div class="col-12">
+            <img src="img/G.png" class="img-fluid" alt="">
+         <!-- Propriedades Bootstrap:
+             - h1: classe de heading
+             - text-white: cor branca para o texto
+             - fw-medium: peso da fonte médio
+             - fst-italic: estilo da fonte itálico -->
+      
+             <h3 class="display-3 fw-bold">GONCA-BR</h3>
+         <!-- Propriedades Bootstrap:
+             - display-3: tamanho grande para o texto
+             - text-white: cor branca para o texto
+             - fw-bold: peso da fonte negrito -->
+        
+          <a href="#sobre" class="btn btn-dark btn-lg fs-6 fw-medium py-3 px-5 my-5 text-uppercase">sobre nós<i class="bi bi-caret-down"></i></a>
+      </div>
+          <!-- Propriedades Bootstrap:
+             - btn: classe de botão
+             - btn-dark: estilo escuro do botão
+             - fs-6: tamanho da fonte pequena
+             - fw-medium: peso da fonte médio
+             - py-3: padding vertical 3
+             - px-5: padding horizontal 5
+             - mt-5: margin top 5
+             - text-uppercase: texto em maiúsculas -->
+    </div>
+       
+      <!-- Icones -->
+      <div class="row text-center d-flex align-items-center justify-content-center mt-5">
+        <div class="col-auto social-icons">    
+                  <a href="#" class="mx-3 text-white text-decoration-none"><i class="bi bi-facebook"></i></a>
+        </div>
+
+        <div class="col-auto social-icons">
+                  <a href="#" class="mx-3 text-white text-decoration-none"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+
+        <div class="col-auto social-icons">    
+                  <a href="#" class="mx-3 text-white text-decoration-none"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+      </div>
+  </section>
+
+
+
+
+  
+<!-- section sobre -->
+  <section class="container-fluid py-5" id="sobre">
+    <div class="row mt-3 py-3 text-center">
+        <div class="col">
+            <h2>SOBRE</h2><br>
+            <figcaption class="blockquote-footer text-secondary py-"><strong> QUEM SOMOS? </strong></figcaption>
+        </div>
+    </div>
+  
+    <div class="container d-flex justify-content-center mt-2">
+        <div class="row">
+            <div class="col-xl-6 text-center p-5">
+                <img class="img-fluid" src="img/contrato.jpg" alt="">
+              
+            </div>
+            <div class="col-xl-6 p-5 d-flex flex-column justify-content-center">
+                <h2><i class="bi bi-book"> Bem-vindo!</i></h2>
+                <p class="mt-3">
+                  <p class="fw-bold">SOBRE</p>
+                  <p>Somos uma empresa brasileira de sociedade limitada que surge no estado de São Paulo com o foco em melhorar a segurança e o ambiente do seu negócio.</p>
+        </div>
+    </div>
+
+  </section>
+
+  <section>
+    <div class="row row-cols-1 row-cols-md-6 d-flex justify-content-between mx-2 py-4">
+
+      <div class="card d-flex flex-column align-items-center p-2 text-center mt-5">
+          <i class="bg-primary rounded-circle bi bi-lightbulb-fill align-items-center p-4 fs-2 justify-content-center d-flex bg-white"></i>
+          <h3 class="h3 mt4">Missão</h3>
+          <p>Contribuir com a sociedade no tangente a limpeza, segurança e fornecimento de MO industrial.</p>
+      </div>
+
+      <div class="card d-flex flex-column align-items-center p-2 text-center mt-5">
+              <i class="bg-primary rounded-circle bi bi-binoculars-fill align-items-center p-4 fs-2 justify-content-center d-flex bg-white"></i>
+          <h3 class="h3 mt4">=Visão</h3>
+          <p>Constituir parcerias fortes e prósperas com base em bons relacionamentos e resultados do serviço prestado, tornando-se líder de mercado até 2030.</p>
+      </div>
+
+      <div class="card d-flex flex-column align-items-center p-2 text-center mt-5">
+              <i class="bg-primary rounded-circle bi bi-building-fill-add align-items-center p-4 fs-2 justify-content-center d-flex bg-white"></i>
+          <h3 class="h3 mt4">Valores</h3>
+          <p>A Gonca-BR acredita que o maior valor do negócio são as pessoas, por isso, a empresa estará comprometida com o desenvolvimento humano dentro e fora da organização.</p><br>
+          <p class="fw-bold">NOSSO SUCESSO É GARANTIR A SUA SATISFAÇÃO...
+
+            E A NOSSA SATISFAÇÃO É GARANTIR O SEU SUCESSO.</p>
+      </div>
+   </div>
+  </section>
+
+  <!-- section serviços -->
+     <section class="container py-5" id="portfolio">
+      <div class="row mt-3 py-3">
+          <div class="col-12 text-center">
+              <h2><strong>SERVIÇOS!</strong></h2>
+              <h4 class="text-secondary fw-normal py-2 fst-italic">Oferecemos variados tipos de serviços. Dentre eles, temos:</h4>
+          </div>
+      </div>
+
+
+  
+      <div class="row mt-3 mx-7 justify-content-center align-items-center">
+          <div class="col-lg-3 col-md-4 col-12 px-2 card-wrapper">
+              <div class="card mt-1">
+                  <img src="img/servico-de-limpeza.jpg" class="card-img-top" alt="portfolio-img">
+                  <div class="card-body text-center">
+                      <h6 class="card-title">Serviço de Limpeza</h6>
+                      <p class="card-text text-secondary">
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-12 px-2 card-wrapper">
+              <div class="card mt-1">
+                  <img src="img/terceirizacao-portaria.jpg" class="card-img-top" alt="portfolio-img">
+                  <div class="card-body text-center">
+                      <h6 class="card-title">Portaria</h6>
+                      <p class="card-text text-secondary">
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-12 px-2 card-wrapper">
+              <div class="card mt-1">
+                  <img src="img/cano.jpg" class="card-img-top" alt="portfolio-img">
+                  <div class="card-body text-center">
+                      <h6 class="card-title">Manutenção predial</h6>
+                      <p class="card-text text-secondary">
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+<!-- section contato -->
+ <section class="container py-5" id="contato">
+  <div class="row mt-3 py-3 text-center">
+      <div class="col-12 d-flex flex-column justify-content-center">
+          <h2><strong>CONTATO</strong></h2><br>
+          <figcaption class="blockquote-footer text-secondary py-2">Interessado? Preencha o formulário e responderei dentro de 24 horas.</figcaption>
+      </div>
+  </div>
+
+  <div class="bg-white row pt-4 my-5">
+      <div class="col-12">
+          <form action="">
+              <div class="row d-flex justify-content-center">
+                  <div class="col-lg-6">
+                      <div class="form-floating mb-3">
+                          <input type="text" class="form-control" id="nome" placeholder="Seu nome*" autocomplete="given-name" required>
+                          <label for="nome">Seu nome*</label>
+                      </div>
+
+                      <div class="form-floating mb-3">
+                          <input type="email" class="form-control" id="email" placeholder="Seu e-mail*" autocomplete="email" required>
+                          <label for="email">Seu e-mail*</label>
+                      </div>
+
+                      <div class="form-floating mb-3">
+                          <input type="tel" class="form-control" id="telefone" placeholder="Seu telefone*" required>
+                          <label for="telefone">Seu telefone*</label>
+                      </div> 
+                  </div>
+
+                  <div class="col-lg-6">
+                      <div class="form-floating mb-3">
+                          <textarea class="form-control" placeholder="Escreva sua mensagem" id="msg" style="height: 150px" required></textarea>
+                          <label for="msg">Sua mensagem*</label>
+                      </div>
+
+                      <!-- Botão Enviar na mesma coluna -->
+                      <div class="d-flex justify-content-end">
+                          <button class="btn btn-dark btn-lg fs-6 fw-medium py-2 px-4 text-uppercase" type="submit">Enviar</button>
+                      </div>
+                  </div>
+              </div>
+          </form>
+      </div>
+  </div>
+</section>
+
+
+   <!-- Footer -->
+   <footer class="bg-danger-subtle" data-bs-theme="dark">
+    <div class=" container-fluid-xxl flex-wrap pt-3 d-flex align-items-center justify-content-md-between mx-5" >
+      <p class="text-white">Copyright &copy; 2024. GONCA-BR</p>
+      <ul class="footer-social-icons d-flex">
+        <a href="#" class="bg-white mx-2 text-dark d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="bg-white mx-2 text-dark d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="bi bi-envelope-fill"></i></a>
+        <a href="#" class="bg-white mx-2 text-dark d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="bi bi-linkedin"></i></a> 
+      </ul>
+    </div>
+
+
+   </footer>
+
+
+
+<!-- link js bootstrap v5.3.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- link js customizado -->
+<script src="js/script.js"></script>
+  </body>
+</html>

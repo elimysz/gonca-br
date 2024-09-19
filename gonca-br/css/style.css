@@ -1,0 +1,83 @@
+.meubg{
+    color: azure;
+    background-image: linear-gradient(to top, rgb(119, 33, 33), white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 0%;
+    height: 100vh;
+    background-attachment:fixed;
+}
+
+
+.social-icons {
+    font-size: 2.5rem;
+}
+
+ .footer-social-icons a {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+  }
+
+
+   
+.rounded-circle {
+
+  height: 5rem;
+  width: 5rem;
+  } 
+
+
+/* Ajusta a largura e altura dos cards para serem mais retangulares verticalmente */
+.card {
+  /* border: none; */
+  border-radius: 0.5rem;
+  overflow: hidden; /* Garante que o conteúdo não saia dos limites do card */
+  display: flex;
+  /* flex-direction: column; */
+  height: 100%; /* Garante que os cards ocupem toda a altura da coluna */
+  margin: auto;
+}
+
+.card-img-top {
+  width: 100%; /* Garante que a imagem ocupe a largura total do card */
+  height: 60%; /* Define uma altura fixa para a imagem dentro do card */
+  object-fit: cover; /* Garante que a imagem cubra o espaço do card sem distorção */
+}
+
+/* Ajusta o padding das colunas */
+.card-wrapper {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* Garante que o corpo do card se ajuste adequadamente */
+.card-body {
+  flex: 1; /* Garante que o corpo do card ocupe o espaço restante */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  padding: 1rem;
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+  .card i {
+      padding: 1.5rem !important; /* Ajusta o padding para ícones em telas menores */
+      font-size: 1.5rem !important; /* Ajusta o tamanho da fonte dos ícones em telas menores */
+  }
+  .card h3 {
+      font-size: 1.25rem !important; /* Ajusta o tamanho da fonte dos títulos em telas menores */
+  }
+  .card p {
+      font-size: 0.875rem !important; /* Ajusta o tamanho da fonte dos parágrafos em telas menores */
+  }
+}
+
+
+
+
